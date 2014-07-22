@@ -1,0 +1,22 @@
+{
+  "name": "setting slack header color ",
+  "version": "0.1",
+  "manifest_version": 2,
+
+  "description": "slackのヘッダ色を設定",
+
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+
+  "page_action": {
+    "default_icon": "green19.png",
+    "default_title": "setting slack header color"
+  }
+}
